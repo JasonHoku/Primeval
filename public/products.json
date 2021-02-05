@@ -1,0 +1,402 @@
+[
+  {
+    "id": 8,
+    "name": "Kapalua Bay Glow",
+    "price": "90",
+    "stock": "99",
+    "size": ["8x20 ", "12x30 ", "16x40", "20x50"],
+    "image": "./images/dave/kapaluaglow.jpg",
+    "category": "/#/dashboards/dave"
+  },
+  {
+    "id": 9,
+    "name": "Hookipa Afternoon Surf ",
+    "price": "90",
+    "stock": "99",
+    "size": ["8x20 ", "12x30 ", "16x40"],
+    "image": "./images/bg2.jpg",
+    "category": "/#/dashboards/dave"
+  },
+  {
+    "id": 11,
+    "name": "Secret Beach Sunset",
+    "price": "90",
+    "stock": "99",
+    "size": ["8x20 ", "12x30 ", "16x40"],
+    "image": "./images/dave/DS Secret Beach Sunset 12x30 FINAL.jpg",
+    "category": "/#/dashboards/dave"
+  },
+  {
+    "id": 12,
+    "name": "DT Fleming Serenity",
+    "price": "90",
+    "stock": "99",
+    "size": ["8x20 ", "12x30 ", "16x40"],
+    "image": "./images/Raw/Dave/DT Fleming Serenity 12x30 FINAL.jpg",
+    "category": "/#/dashboards/dave"
+  },
+  {
+    "id": 13,
+    "name": "Koki Beach Morning - Hana ",
+    "price": "90",
+    "stock": "99",
+    "size": ["8x20 ", "12x30 ", "16x40"],
+    "image": "./images/dave/DS Koki Beach Morning 12x30 FINAL.jpg",
+    "category": "/#/dashboards/dave"
+  },
+  {
+    "id": 14,
+    "name": "Black Rock - Kaanapali ",
+    "price": "90",
+    "stock": "99",
+    "size": ["8x20 ", "12x30 ", "16x40"],
+    "image": "./images/Raw/Dave/Black Rock - Kaanapali FINAL.jpg",
+    "category": "/#/dashboards/dave"
+  },
+  {
+    "id": 26,
+    "name": "Makena - Big Beach Afternoon ",
+    "price": "90",
+    "stock": "99",
+    "size": ["8x20 ", "12x30 ", "16x40"],
+    "image": "./images/Raw/Dave/Makena - Big Beach Afternoon 12x30 FINAL.jpg",
+    "category": "/#/dashboards/dave"
+  },
+  {
+    "id": 16,
+    "name": "Kapalua Radiance",
+    "price": "90",
+    "stock": "99",
+    "size": ["8x20 ", "12x30 ", "16x40"],
+    "image": "./images/Raw/Dave/DS Kapalua Radiance 12x30 FINAL.jpg",
+    "category": "/#/dashboards/dave"
+  },
+  {
+    "id": 1,
+    "name": " Hawaiian Night",
+
+    "price": "125",
+    "stock": "99",
+    "size": ["12x18 ", "16x24 ", "20x30 ", "24x36 "],
+    "image": "./images/1.jpg",
+    "category": "/#/dashboards/john"
+  },
+  {
+    "id": 2,
+    "name": " Healani",
+
+    "price": "125",
+    "stock": "99",
+    "size": ["12x18 ", "16x24 ", "20x30 ", "24x36 "],
+    "image": "./images/2.jpg",
+    "category": "/#/dashboards/john"
+  },
+  {
+    "id": 3,
+    "name": " Hula Dancer",
+
+    "price": "125",
+    "stock": "99",
+    "size": ["12x18 ", "16x24 ", "20x30 ", "24x36 "],
+    "image": "./images/3.jpg",
+    "category": "/#/dashboards/john"
+  },
+  {
+    "id": 4,
+    "name": " Lei Maker",
+
+    "price": "125",
+    "stock": "99",
+    "size": ["12x18 ", "16x24 ", "20x30 ", "24x36 "],
+    "image": "./images/4.jpg",
+    "category": "/#/dashboards/john"
+  },
+  {
+    "id": 5,
+    "name": " Breadfruit",
+    "price": "125",
+    "stock": "99",
+    "size": ["12x18 ", "16x24 ", "20x30 ", "24x36 "],
+    "image": "./images/5.jpg",
+    "category": "/#/dashboards/john"
+  },
+  {
+    "id": 6,
+    "name": " Fisherman",
+
+    "price": "125",
+    "stock": "99",
+    "size": ["12x18 ", "16x24 ", "20x30 ", "24x36 "],
+    "image": "./images/6.jpg",
+    "category": "/#/dashboards/john"
+  },
+  {
+    "id": 7,
+    "name": " Big Surf",
+
+    "price": "125",
+    "stock": "99",
+    "size": ["12x18 ", "16x24 ", "20x30 ", "24x36 "],
+    "image": "./images/7.jpg",
+    "category": "/#/dashboards/john"
+  },
+  {
+    "id": 23,
+    "name": "Hawaii Kapalua - Makaluapuna",
+
+    "price": "125",
+    "stock": "99",
+    "size": ["12x18 ", "16x24 ", "20x30 ", "24x36 "],
+    "image": "./images/Raw/Horak/Horak HI Kapalua - Makaluapuna 12x18 FINAL.jpg",
+    "category": "/#/dashboards/william"
+  },
+  {
+    "id": 24,
+    "name": "Maui Kapalua - Honokahua ",
+
+    "price": "125",
+    "stock": "99",
+    "size": ["12x18 ", "16x24 ", "20x30 ", "24x36 "],
+    "image": "./images/william/Horak Maui Kapalua - Honokahua 12x18 FINAL.jpg",
+    "category": "/#/dashboards/william"
+  },
+  {
+    "id": 17,
+    "name": "Hawaii - Diamond Head Wahine",
+
+    "price": "125",
+    "stock": "99",
+    "size": ["12x18 ", "16x24 ", "20x30 ", "24x36 "],
+    "image": "./images/william/2.jpg",
+    "category": "/#/dashboards/william"
+  },
+  {
+    "id": 27,
+    "name": "Oahu - Waikiki Surf",
+
+    "price": "125",
+    "stock": "99",
+    "size": ["12x18 ", "16x24 ", "20x30 ", "24x36 "],
+    "image": "./images/william/3.jpg",
+    "category": "/#/dashboards/william"
+  },
+  {
+    "id": 29,
+    "name": "Captain Cook - Sandwich Isles",
+
+    "price": "125",
+    "stock": "99",
+    "size": ["12x18 ", "16x24 ", "20x30 ", "24x36 "],
+    "image": "./images/Raw/Horak/Horak Captain Cook Sandwich Isles 12x18 FINAL.jpg",
+    "category": "/#/dashboards/william"
+  },
+  {
+    "id": 20,
+    "name": "Hawaii - Kaanapali Pohuku",
+
+    "price": "125",
+    "stock": "99",
+    "size": ["12x18 ", "16x24 ", "20x30 ", "24x36 "],
+    "image": "./images/william/Horak HI Kaanapali Pohuku 12x18 FINAL.jpg",
+    "category": "/#/dashboards/william"
+  },
+  {
+    "id": 21,
+    "name": "Kauai - Hanalei ",
+
+    "price": "125",
+    "stock": "99",
+    "size": ["12x18 ", "16x24 ", "20x30 ", "24x36 "],
+    "image": "./images/william/Horak Kauai Hanalei 12x18 FINAL.jpg",
+    "category": "/#/dashboards/william"
+  },
+  {
+    "id": 22,
+    "name": "Maui Black Rock - Pu'u Keka'a ",
+    "price": "125",
+    "stock": "99",
+    "size": ["12x18 ", "16x24 ", "20x30 ", "24x36 "],
+    "image": "./images/william/Horak Maui Black Rock Pu'u Keka'a 12-18 FINAL.jpg",
+    "category": "/#/dashboards/william"
+  },
+  {
+    "id": 15,
+    "name": "Hawaii - Kahuku",
+    "price": "125",
+    "stock": "99",
+    "size": ["12x18 ", "16x24 ", "20x30 ", "24x36 "],
+    "image": "./images/william/4.jpg",
+    "category": "/#/dashboards/william"
+  },
+  {
+    "id": 30,
+    "name": "Molokai - Fish Pond",
+    "price": "125",
+    "stock": "99",
+    "size": ["12x18 ", "16x24 ", "20x30 ", "24x36 "],
+    "image": "./images/william/1.jpg",
+    "category": "/#/dashboards/william"
+  },
+  {
+    "id": 31,
+    "name": "Horak Hawaiian Archipelago",
+    "price": "125",
+    "stock": "99",
+    "size": ["12x18 ", "16x24 ", "20x30 ", "24x36 "],
+    "image": "./images/william/Horak Hawaiian Archipelago.jpg",
+    "category": "/#/dashboards/william"
+  },
+  {
+    "id": 32,
+    "name": "Horak Hawaii - Waikiki Surf",
+    "price": "125",
+    "stock": "99",
+    "size": ["12x18 ", "16x24 ", "20x30 ", "24x36 "],
+    "image": "./images/william/Horak Hawaii - Waikiki Surf.jpg",
+    "category": "/#/dashboards/william"
+  },
+  {
+    "id": 33,
+    "name": "DT Flemings Corner Pines",
+    "price": "90",
+    "stock": "99",
+    "size": ["8x20 ", "12x30 ", "16x40"],
+    "image": "./images/dave/DS DT Flemings Corner Pines 12x30 FINAL.jpg",
+    "category": "/#/dashboards/dave"
+  },
+  {
+    "id": 34,
+    "name": "Honolua Bay Surf",
+    "price": "90",
+    "stock": "99",
+    "size": ["8x20 ", "12x30 ", "16x40"],
+    "image": "./images/dave/DS Honolua Bay Surf 12x24.jpg",
+    "category": "/#/dashboards/dave"
+  },
+  {
+    "id": 35,
+    "name": "Windmills Afternoon",
+    "price": "85",
+    "stock": "99",
+    "size": ["8x16 ", "12x24 ", "16x32"],
+    "image": "./images/dave/DS Windmills Afternoon 12x24 FINAL.jpg",
+    "category": "/#/dashboards/dave"
+  },
+  {
+    "id": 36,
+    "name": "Honolua Sunset",
+    "price": "85",
+    "stock": "99",
+    "size": ["8x16 ", "12x24 ", "16x32"],
+    "image": "./images/dave/Honolua Sunset 12x24.jpg",
+    "category": "/#/dashboards/dave"
+  },
+  {
+    "id": 37,
+    "name": "Secret Beach Sunset Splash",
+    "price": "90",
+    "stock": "99",
+    "size": ["8x20 ", "12x30 ", "16x40"],
+    "image": "./images/dave/DS Secret Beach Sunset Splash 12x30 FINAL.jpg",
+    "category": "/#/dashboards/dave"
+  },
+  {
+    "id": 38,
+    "name": "Napili Bay Sunset",
+    "price": "90",
+    "stock": "99",
+    "size": ["8x20 ", "12x30 ", "16x40"],
+    "image": "./images/Raw/Dave/Napili Bay Sunset FINAL.jpg",
+    "category": "/#/dashboards/dave"
+  },
+  {
+    "id": 44,
+    "name": "Kipahulu Banyan Morning",
+    "price": "125",
+    "stock": "99",
+    "size": ["12x18 ", "16x24 ", "20x30 ", "24x36 "],
+    "image": "./images/dave/DS Kipahulu Banyan Morning 16x24 FINAL.jpg",
+    "category": "/#/dashboards/dave"
+  },
+  {
+    "id": 45,
+    "name": "Rainbow Eucalyptus Morning",
+    "price": "125",
+    "stock": "99",
+    "size": ["12x18 ", "16x24 ", "20x30 ", "24x36 "],
+    "image": "./images/dave/DS Rainbow Eucalyptus Morning 24x16 FINAL.jpg",
+    "category": "/#/dashboards/dave"
+  },
+  {
+    "id": 39,
+    "name": "Aloha Oe",
+    "price": "125",
+    "stock": "99",
+    "size": ["12x18 ", "16x24 ", "20x30 ", "24x36 "],
+    "image": "./images/Raw/Aloha Oe Sheet Music Cover 18x12 FINAL.jpg",
+    "category": "/#/dashboards/john"
+  },
+  {
+    "id": 40,
+    "name": "Hawaii - United Air Lines",
+    "price": "125",
+    "stock": "99",
+    "size": ["12x18 ", "16x24 ", "20x30 ", "24x36 "],
+    "image": "./images/Raw/Hawaii - United Air Lines (Canoe Poster) 18x12 FINAL.jpg",
+    "category": "/#/dashboards/john"
+  },
+  {
+    "id": 41,
+    "name": "Pan American Honolulu Clipper",
+    "price": "125",
+    "stock": "99",
+    "size": ["12x18 ", "16x24 ", "20x30 ", "24x36 "],
+    "image": "./images/Raw/Pan American Honolulu Clipper 12x18 FINAL.jpg",
+    "category": "/#/dashboards/john"
+  },
+  {
+    "id": 42,
+    "name": "Kipahulu Bamboo Heavens",
+    "price": "125",
+    "stock": "99",
+    "size": ["12x18 ", "16x24 ", "20x30 ", "24x36 "],
+    "image": "./images/Raw/DS Kipahulu Bamboo Heavens 36x24 FINAL.jpg",
+    "category": "/#/dashboards/dave"
+  },
+  {
+    "id": 43,
+    "name": "Pipiwai Bamboo Path",
+    "price": "125",
+    "stock": "99",
+    "size": ["12x18 ", "16x24 ", "20x30 ", "24x36 "],
+    "image": "./images/Raw/DS Pipiwai Bamboo Path 36x24.jpg",
+    "category": "/#/dashboards/dave"
+  },
+  {
+    "id": 18,
+    "name": "Kipahulu Banyan Afternoon",
+    "price": "125",
+    "stock": "99",
+    "size": ["12x18 ", "16x24 ", "20x30 ", "24x36 "],
+    "image": "./images/Raw/DS Kipahulu Banyan Afternoon 24x36.jpg",
+    "category": "/#/dashboards/dave"
+  },
+  {
+    "id": 28,
+    "name": "Bamboo Rainforest - Pipiwai Trail",
+    "price": "90",
+    "stock": "99",
+    "size": ["8x20 ", "12x30 ", "16x40"],
+    "image": "./images/Raw/DS Bamboo Rainforest - Pipiwai Trail 12x30 FINAL.jpg",
+    "category": "/#/dashboards/dave"
+  },
+  {
+    "id": 46,
+    "name": "Big Island",
+    "price": "125",
+    "stock": "99",
+    "size": ["8x20 ", "12x30 ", "16x40"],
+    "image": "./images/Raw/Horak Big Island 12x18 FINAL.jpg",
+    "category": "/#/dashboards/william"
+  }
+]

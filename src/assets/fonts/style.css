@@ -1,0 +1,13 @@
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "FrutillaScript-Regular";
+  src: url("./fonts/FrutillaScript.eot"); /* IE9 Compat Modes */
+  src: url("./fonts/FrutillaScript.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./fonts/FrutillaScript.otf") format("opentype"), /* Open Type Font */
+    url("./fonts/FrutillaScript.svg") format("svg"), /* Legacy iOS */
+    url("./fonts/FrutillaScript.ttf") format("truetype"), /* Safari, Android, iOS */
+    url("./fonts/FrutillaScript.woff") format("woff"), /* Modern Browsers */
+    url("./fonts/FrutillaScript.woff2") format("woff2"); /* Modern Browsers */
+  font-weight: normal;
+  font-style: normal;
+}

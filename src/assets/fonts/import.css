@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "FrutillaScript-Regular";
+    src: url("./fruitilla/FrutillaScript.eot"); /* IE9 Compat Modes */
+    src: url("./fruitilla/FrutillaScript.eot?#iefix")
+        format("embedded-opentype"),
+      /* IE6-IE8 */ url("./fruitilla/FrutillaScript.otf")
+        format("opentype"),
+      /* Open Type Font */ url("./fruitilla/FrutillaScript.svg")
+        format("svg"),
+      /* Legacy iOS */ url("./fruitilla/FrutillaScript.ttf")
+        format("truetype"),
+      /* Safari, Android, iOS */
+        url("./fruitilla/FrutillaScript.woff") format("woff"),
+      /* Modern Browsers */ url("./fruitilla/FrutillaScript.woff2")
+        format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }

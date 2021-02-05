@@ -1,0 +1,11 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /#/dashboards/home
+Allow: /#/dashboards/services
+Allow: /#/dashboards/shopgallery
+Allow: /#/dashboards/gallery
+Allow: /#/dashboards/william
+Allow: /#/dashboards/john
+Allow: /#/dashboards/dave
+Allow: /#/dashboards/about
+Sitemap: https://www.Primeval.js.com/sitemap.xml

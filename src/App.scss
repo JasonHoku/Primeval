@@ -1,0 +1,1255 @@
+// Icons
+@import "./Pages/Dashboards/Shop/scss/style.scss";
+@import "assets/linear/style";
+@import "assets/pe7/pe-icon-7-stroke/css/pe-icon-7-stroke";
+@import "assets/pe7/pe-icon-7-stroke/css/helper";
+@import "assets/fonts/import.css";
+@import "assets/fonts/cinzel/style.css";
+// BOOTSTRAP 4 VARIABLES
+
+@import "assets/components/bootstrap4/functions";
+@import "assets/components/bootstrap4/variables";
+@import "assets/components/bootstrap4/mixins";
+
+// ArchitectUI Themes Variables
+
+@import "assets/themes/layout-variables";
+
+// BOOTSTRAP 4 IMPORTS
+
+@import "assets/components/bootstrap4/root";
+@import "assets/components/bootstrap4/reboot";
+@import "assets/components/bootstrap4/type";
+@import "assets/components/bootstrap4/images";
+@import "assets/components/bootstrap4/code";
+@import "assets/components/bootstrap4/grid";
+@import "assets/components/bootstrap4/tables";
+@import "assets/components/bootstrap4/buttons";
+@import "assets/components/bootstrap4/transitions";
+@import "assets/components/bootstrap4/dropdown";
+@import "assets/components/bootstrap4/button-group";
+@import "assets/components/bootstrap4/input-group";
+@import "assets/components/bootstrap4/custom-forms";
+@import "assets/components/bootstrap4/nav";
+@import "assets/components/bootstrap4/navbar";
+@import "assets/components/bootstrap4/card";
+@import "assets/components/bootstrap4/breadcrumb";
+@import "assets/components/bootstrap4/pagination";
+@import "assets/components/bootstrap4/badge";
+@import "assets/components/bootstrap4/jumbotron";
+@import "assets/components/bootstrap4/alert";
+@import "assets/components/bootstrap4/progress";
+@import "assets/components/bootstrap4/media";
+@import "assets/components/bootstrap4/list-group";
+@import "assets/components/bootstrap4/close";
+@import "assets/components/bootstrap4/toasts";
+@import "assets/components/bootstrap4/tooltip";
+@import "assets/components/bootstrap4/popover";
+@import "assets/components/bootstrap4/carousel";
+@import "assets/components/bootstrap4/utilities";
+// LAYOUT
+
+@import "assets/layout/layout";
+
+// UTILS
+
+@import "assets/utils/helpers";
+@import "assets/utils/backgrounds";
+@import "assets/utils/animate";
+@import "assets/utils/comps-animations";
+
+// ELEMENTS
+
+@import "assets/elements/buttons";
+@import "assets/elements/navs";
+@import "assets/elements/badges";
+@import "assets/elements/cards";
+@import "assets/elements/tabs";
+@import "assets/elements/loaders";
+@import "assets/elements/progressbar";
+@import "assets/elements/timeline";
+@import "assets/elements/listgroup";
+@import "assets/elements/forms";
+@import "assets/elements/pagination";
+@import "assets/elements/chat";
+
+// DASHBOARD BOXES
+
+@import "assets/widgets/chart-boxes/chart-boxes";
+@import "assets/widgets/content-boxes/content-boxes";
+@import "assets/widgets/profile-boxes/profile-boxes";
+
+// PAGES
+
+// Applications
+
+@import "assets/applications/applications-base";
+
+// Perfect Scrollbar
+
+// RC Tabs
+@import "assets/components/rc-tabs/rc-tabs";
+
+// Drawer
+@import "assets/components/drawer/drawer";
+
+// Notifications
+@import "assets/components/notifications/sweetalerts";
+@import "assets/components/notifications/toastify";
+
+// Modals
+@import "assets/components/modals/rodal";
+
+// Progress Bar
+
+// Slick Carousel
+
+// Block loading
+
+// Popovers & Tooltips
+@import "assets/components/popovers-tooltips/popovers-tooltips";
+
+// DEMO
+
+@import "assets/demo-ui/demo";
+
+// Responsive
+
+@import "assets/layout/responsive/responsive-base";
+
+/* font converted using font-converter.net. thank you! */
+
+.bgimg1 {
+  opacity: 0;
+}
+.bgimg2 {
+  opacity: 0;
+}
+.bgimg3 {
+  opacity: 0;
+}
+
+img {
+  transition: opacity 1s linear;
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: xx-large;
+  font-family: "Cinzel-Regular";
+  font-weight: 0;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+h3 {
+  color: whitesmoke;
+  font-size: xx-large;
+  text-align: center;
+  font-family: "Cinzel-Regular";
+  font-weight: 0;
+  align-items: center;
+  align-content: center;
+}
+.card-header {
+  align-self: center;
+  text-align: center;
+  font-weight: lighter;
+  align-items: center;
+  align-content: center;
+}
+
+.card-title {
+  color: whitesmoke;
+  font-family: "Cinzel-Regular";
+  font-size: 34px;
+  font-weight: lighter;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+h2 {
+  color: black;
+  font-size: xx-large;
+  font-family: "Cinzel-Regular";
+  text-size-adjust: 80%;
+  align-items: center;
+  align-content: center;
+}
+
+.logoFont {
+  color: whitesmoke;
+  font-family: "Cinzel-Regular";
+  letter-spacing: 3px;
+  line-height: 0;
+  align-items: center;
+  align-content: center;
+  position: "relative";
+  font-weight: 100;
+  text-align: "left";
+}
+.logoFont2 {
+  color: whitesmoke;
+  line-height: 0;
+  font-family: "Cinzel-Regular";
+  font-weight: 100;
+  letter-spacing: 0px;
+  align-items: left;
+  align-content: left;
+}
+.logoFont3 {
+  color: black;
+  line-height: 0.8;
+  font-family: "FrutillaScript-Regular";
+  letter-spacing: -2px;
+  top: 0;
+  align-items: left;
+  align-content: left;
+}
+.logoFont4 {
+  line-height: 0.3;
+  color: whitesmoke;
+  font-family: "Cinzel-Regular";
+  letter-spacing: -10px;
+  align-items: center;
+  align-content: center;
+  position: "relative";
+  text-align: "left";
+}
+.logoFont5 {
+  line-height: 0;
+  color: whitesmoke;
+  font-family: "Cinzel-Regular";
+  letter-spacing: 0px;
+  align-items: right;
+  align-content: right;
+  position: "relative";
+  text-align: right;
+  font-weight: 1;
+}
+
+strong {
+  line-height: 0;
+  color: whitesmoke;
+  font-family: "Cinzel-Regular";
+  letter-spacing: 0px;
+  align-items: right;
+  align-content: right;
+  position: "relative";
+  text-align: right;
+  font-weight: 1;
+}
+
+.card-header {
+  color: whitesmoke;
+  background-color: "transparent";
+  font-family: "Cinzel-Regular";
+  align-self: left;
+  text-align: justify;
+  align-items: left;
+  align-content: left;
+}
+
+.card-body {
+  color: whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.orderFont {
+  color: black;
+  font-size: xx-large;
+  font-family: "Cinzel-Regular";
+  font-size: 36;
+  letter-spacing: 5px;
+  align-items: center;
+  align-content: center;
+}
+
+#collectionsVar {
+  left: 400px;
+}
+.slideClass {
+  left: -100;
+}
+.BurgerSlider:hover {
+  color: "black";
+}
+#hiddenText {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+}
+#visibleText {
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.centerInput {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1026px) {
+  #headerText {
+    right: 175px;
+    top: 45px;
+    line-height: 25px;
+    position: absolute;
+  }
+  #headerText2 {
+    position: "relative";
+    width: 300px;
+    z-index: 10;
+  }
+  .logoFont3 {
+    font-size: 98px;
+    z-index: 1;
+    position: absolute;
+    left: "-55px";
+    align-items: left;
+    align-content: left;
+    justify-content: left;
+    justify-items: left;
+  }
+  .logoFont2 {
+    font-size: 50px;
+  }
+  .logoFont {
+    padding-left: 150px;
+    font-size: 65px;
+  }
+  .logoFont5 {
+    font-size: 20px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .cardMobile {
+    width: 23rem;
+  }
+}
+
+@media only screen and (min-width: 550px) and (max-width: 750px) {
+  #headerText {
+    display: none;
+  }
+  #headerText2 {
+    position: "relative";
+    width: 300px;
+    z-index: 10;
+  }
+  .logoFont3 {
+    font-size: 98px;
+    z-index: 1;
+    position: absolute;
+    left: "-55px";
+    align-items: left;
+    align-content: left;
+    justify-content: left;
+    justify-items: left;
+  }
+  .logoFont2 {
+    font-size: 50px;
+  }
+  .logoFont {
+    padding-left: 150px;
+    font-size: 65px;
+  }
+  .logoFont5 {
+    font-size: 20px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .cardMobile {
+    width: 23rem;
+  }
+}
+
+@media only screen and (min-width: 1026px) and (max-width: 1350px) {
+  .logoFont2 {
+    left: -150px;
+    position: relative;
+  }
+  .logoFont3 {
+    left: -150px;
+    position: relative;
+  }
+  .logoFont4 {
+    left: -150px;
+    position: relative;
+  }
+  .logoFont {
+    left: -150px;
+    position: relative;
+  }
+  .Notify1 {
+    right: -350px;
+    position: absolute;
+    top: -25px;
+    background-color: rgba(71, 71, 71, 0.89);
+    color: white;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 5%;
+    opacity: 100;
+  }
+}
+@media only screen and (min-width: 1026px) {
+  #headerText {
+    right: 475px;
+    top: 45px;
+    line-height: 25px;
+    position: absolute;
+  }
+  #headerText2 {
+    position: "relative";
+    width: 300px;
+    z-index: 10;
+  }
+  .logoFont3 {
+    font-size: 98px;
+    z-index: 1;
+    position: absolute;
+    left: "-55px";
+    align-items: left;
+    align-content: left;
+    justify-content: left;
+    justify-items: left;
+  }
+  .logoFont2 {
+    font-size: 50px;
+  }
+  .logoFont {
+    padding-left: 450px;
+    font-size: 65px;
+  }
+  .logoFont5 {
+    font-size: 16px;
+    position: absolute;
+    z-index: 1;
+  }
+}
+.PayPalButtonBackground {
+  background-image: linear-gradient(
+    180deg,
+    rgb(116, 116, 116),
+    rgba(3, 3, 3, 0.959)
+  );
+}
+div.app-main__outer {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    180deg,
+    rgb(116, 116, 116),
+    rgba(3, 3, 3, 0.959)
+  );
+  min-height: 22cm;
+}
+.app-main__outer {
+  max-height: min-content;
+}
+
+.zoom {
+  transition: transform 0.1s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(
+    1.1
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.card-body.hoverZoomLink:hover {
+  transform: scale(
+    1.1
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+button.close {
+  cursor: pointer;
+  color: #fff;
+  border: 1px solid #aeaeae;
+  border-radius: 25px;
+  background: #605f61;
+  font-size: 31px;
+  font-weight: bold;
+  line-height: 0px;
+  position: absolute;
+  z-index: 99996;
+}
+.circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  text-align: center;
+  top: "70px";
+  right: "20px";
+  color: #fff;
+  background: rgba(104, 101, 101, 0.89);
+  transition: all 1s ease-in;
+}
+
+.example-appear {
+  opacity: 0.01;
+}
+
+.example-appear.example-appear-active {
+  opacity: 1;
+  transition: opacity 0.7s ease-in;
+}
+
+#collectionsVar {
+  left: 400px;
+}
+@media (max-width: 1400px) {
+  #collectionsVar {
+    left: 200px;
+  }
+}
+@media (max-width: 989px) and (min-width: 700px) {
+  .slideClass {
+    display: none;
+    position: absolute;
+    top: -25px;
+  }
+}
+@media (max-width: 1275px) and (min-width: 989px) {
+  .app-header__logo > span > span > button > button:nth-child(1) {
+    display: none;
+    position: absolute;
+    top: -25px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .affiliates {
+    width: 350px;
+    display: inline;
+  }
+}
+@media only screen and (min-width: 400px) and (max-width: 550px) {
+  #headerText {
+    display: none;
+  }
+  #root > div > span > div.app-header__menu {
+    display: none;
+  }
+  .collectionsVar {
+    width: 80%;
+  }
+  #headerText2 {
+    position: "relative";
+    width: 300px;
+    z-index: 10;
+  }
+  .logoFont3 {
+    font-size: 98px;
+    z-index: 1;
+    position: absolute;
+    left: -10px;
+    align-items: left;
+    align-content: left;
+    justify-content: left;
+    justify-items: left;
+  }
+  .logoFont2 {
+    font-size: 50px;
+  }
+  .logoFont {
+    padding-left: 75px;
+    font-size: 65px;
+  }
+  .logoFont5 {
+    font-size: 20px;
+    position: absolute;
+    z-index: 1;
+    font-size: 15px;
+    position: absolute;
+    left: -25;
+    z-index: 1;
+  }
+  #headerText2 {
+    left: -250px;
+  }
+  #collectionsVar {
+    left: auto;
+  }
+}
+.Notify1 {
+  position: absolute;
+  top: -25px;
+  background-color: rgba(71, 71, 71, 0.89);
+  color: white;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 5%;
+  opacity: 100;
+}
+.woodVar {
+  color: #ffffff;
+  font-weight: bolder;
+  font-family: "Cinzel-Regular";
+}
+.seriesVar {
+  color: #ffffff;
+  font-family: "Cinzel-Regular";
+  font-size: "26px";
+}
+h1::first-letter {
+  font-size: 130%;
+  color: #ebebeb;
+}
+
+span.capsVar {
+  font-size: 130%;
+}
+
+.lastName {
+  font-size: 120%;
+  display: inline-block;
+}
+
+span.products-wrapper > div > span:nth-child(1) {
+  transition-delay: 200ms;
+  position: relative;
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+}
+span.products-wrapper > div > span:nth-child(2) {
+  transition-delay: 1200ms;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: -20px;
+  animation: fadeIn ease 1.5s;
+  -webkit-animation: fadeIn ease 1.5s;
+  -moz-animation: fadeIn ease 1.5s;
+  -o-animation: fadeIn ease 1.5s;
+  -ms-animation: fadeIn ease 1.5s;
+}
+span.products-wrapper > div > span:nth-child(3) {
+  transition-delay: 2400ms;
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: -40px;
+  animation: fadeIn ease 2s;
+  -webkit-animation: fadeIn ease 2s;
+  -moz-animation: fadeIn ease 2s;
+  -o-animation: fadeIn ease 2s;
+  -ms-animation: fadeIn ease 2s;
+}
+span.products-wrapper > div > span:nth-child(4) {
+  transition-delay: 3600ms;
+  position: relative;
+  margin-top: 60px;
+  margin-bottom: -60px;
+  animation: fadeIn ease 2.5s;
+  -webkit-animation: fadeIn ease 2.5s;
+  -moz-animation: fadeIn ease 2.5s;
+  -o-animation: fadeIn ease 2.5s;
+  -ms-animation: fadeIn ease 2.5s;
+}
+span.products-wrapper > div > span:nth-child(5) {
+  transition-delay: 800ms;
+  position: relative;
+  margin-top: 80px;
+  margin-bottom: -80px;
+  animation: fadeIn ease 3s;
+  -webkit-animation: fadeIn ease 3s;
+  -moz-animation: fadeIn ease 3s;
+  -o-animation: fadeIn ease 3s;
+  -ms-animation: fadeIn ease 3s;
+}
+span.products-wrapper > div > span:nth-child(6) {
+  transition-delay: 1000ms;
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: -100px;
+  animation: fadeIn ease 3.5s;
+  -webkit-animation: fadeIn ease 3.5s;
+  -moz-animation: fadeIn ease 3.5s;
+  -o-animation: fadeIn ease 3.5s;
+  -ms-animation: fadeIn ease 3.5s;
+}
+span.products-wrapper > div > span:nth-child(7) {
+  transition-delay: 1200ms;
+  position: relative;
+  margin-top: 120px;
+  margin-bottom: -120px;
+  animation: fadeIn ease 4s;
+  -webkit-animation: fadeIn ease 4s;
+  -moz-animation: fadeIn ease 4s;
+  -o-animation: fadeIn ease 4s;
+  -ms-animation: fadeIn ease 4s;
+}
+span.products-wrapper > div > span:nth-child(8) {
+  transition-delay: 1400ms;
+  position: relative;
+  margin-top: 140px;
+  margin-bottom: -140px;
+  animation: fadeIn ease 4.5s;
+  -webkit-animation: fadeIn ease 4.5s;
+  -moz-animation: fadeIn ease 4.5s;
+  -o-animation: fadeIn ease 4.5s;
+  -ms-animation: fadeIn ease 4.5s;
+}
+span.products-wrapper > div > span:nth-child(9) {
+  transition-delay: 1600ms;
+  position: relative;
+  margin-top: 160px;
+  margin-bottom: -160px;
+}
+span.products-wrapper > div > span:nth-child(10) {
+  transition-delay: 1800ms;
+  position: relative;
+  margin-top: 180px;
+  margin-bottom: -180px;
+}
+span.products-wrapper > div > span:nth-child(11) {
+  transition-delay: 2000ms;
+  position: relative;
+  margin-top: 200px;
+  margin-bottom: -200px;
+}
+span.products-wrapper > div > span:nth-child(12) {
+  transition-delay: 2200ms;
+  position: relative;
+  margin-top: 220px;
+  margin-bottom: -220px;
+}
+span.products-wrapper > div > span:nth-child(13) {
+  transition-delay: 2200ms;
+  position: relative;
+  margin-top: 220px;
+}
+
+@media only screen and (max-width: 450px) {
+  #root > div > span > div.app-header__logo {
+    display: none;
+  }
+  .app-main__inner {
+    width: 23rem;
+  }
+  .product-image {
+    width: 20rem;
+  }
+  .app-header {
+    width: 350px;
+  }
+}
+
+#root > div > span > div.app-header__menu {
+  display: none;
+}
+input[type="radio"] {
+  visibility: visible;
+  width: 20px;
+  height: 20px;
+  margin: 0px 0px 0px 2px;
+  top: 0;
+  position: relative;
+  visibility: visible;
+}
+input[type="radio"]:checked:after {
+  position: relative;
+  display: block;
+  visibility: visible;
+  border-radius: 6px;
+  z-index: 1;
+  padding-bottom: 21px;
+  background: radial-gradient(
+    ellipse at top left,
+    rgb(27, 88, 200) 100%,
+    rgb(27, 88, 200) 100%,
+    rgb(27, 88, 200) 100%,
+    rgb(27, 88, 200) 100%
+  );
+  content: "";
+}
+input[type="radio"]:disabled {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  visibility: visible;
+  display: inline-block;
+}
+
+@media only screen and (max-height: 900px) {
+  .quick-view-image img {
+    padding-top: 50px;
+  }
+}
+
+@media only screen and (max-height: 850px) {
+  .quick-view-image img {
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .quick-view-details {
+    justify-content: center;
+    font-size: smaller;
+  }
+}
+@media only screen and (max-height: 800px) {
+  .quick-view-image img {
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .quick-view-details {
+    justify-content: center;
+    font-size: smaller;
+  }
+}
+
+@media only screen and (max-height: 750px) {
+  .quick-view-image img {
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .quick-view-details {
+    justify-content: center;
+    font-size: smaller;
+  }
+}
+
+@media only screen and (max-height: 700px) {
+  .quick-view-image img {
+    max-height: 400px;
+    padding-top: 100px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .quick-view-details {
+    justify-content: center;
+    font-size: smaller;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  .quick-view-image img {
+    max-height: 400px;
+    padding-top: 150px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  .quick-view-details {
+    justify-content: center;
+    padding-bottom: 100px;
+  }
+}
+div.app-main__outer .app-main__inner {
+  width: 100%;
+}
+
+.mapTitle {
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+@keyframes headerText {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+.fade-in {
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
+}
+.fade-out {
+  animation: fadeOut ease 1s;
+  -webkit-animation: fadeOut ease 1s;
+  -moz-animation: fadeOut ease 1s;
+  -o-animation: fadeOut ease 1s;
+  -ms-animation: fadeOut ease 1s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  50% {
+  }
+  80% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-o-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-ms-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.ponoTitle {
+  justify-content: center;
+}
+#root > div > div.app-main > div.app-main__outer > div > div > span > div {
+  div {
+    background-color: transparent;
+  }
+}
+
+@-webkit-keyframes ellipsis {
+  /*for test*/
+  0% {
+    width: 100%;
+  }
+  99% {
+    width: 100%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+#hiddenText {
+  max-height: 113px; /* h*n */
+  overflow: hidden;
+
+  -webkit-animation: ellipsis ease 5s infinite; /*for test*/
+}
+.ellipsis .xd123 {
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-pack: center;
+  line-height: 20px; /* line-height h */
+  color: transparent;
+  -webkit-line-clamp: 3; /* max row number n */
+  vertical-align: top;
+}
+.ellipsis .text {
+  display: inline;
+  vertical-align: top;
+  font-size: 14px;
+}
+.ellipsis .overlay {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+
+  /**
+  overflow: visible;
+  left: 0;
+  background: rgba(0,0,0,.5);
+  /**/
+}
+.ellipsis .overlay:before {
+  content: "";
+  display: block;
+  float: left;
+  width: 50%;
+  height: 100%;
+
+  /**
+  background: lightgreen;
+  /**/
+}
+.ellipsis .placeholder {
+  float: left;
+  width: 50%;
+  height: 40px; /* h*n */
+
+  /**
+  background: lightblue;
+  /**/
+}
+.ellipsis .more {
+  position: relative;
+  top: -20px; /* -h */
+  left: -50px; /* -w */
+  float: left;
+  color: #000;
+  width: 50px; /* width of the .more w */
+  height: 20px; /* h */
+  font-size: 14px;
+
+  /**
+  top: 0;
+  left: 0;
+  background: orange;
+  /**/
+}
+
+@media only screen and (min-width: 0px) and (max-width: 450px) {
+  #headerText {
+    display: none;
+  }
+  #headerText2 {
+    position: "relative";
+    width: 300px;
+    z-index: 10;
+  }
+  .collectionsVar {
+    width: 80%;
+  }
+  .logoFont3 {
+    font-size: 70px;
+    z-index: 1;
+    position: absolute;
+    left: -10px;
+  }
+  .logoFont2 {
+    font-size: 42px;
+  }
+  .logoFont {
+    padding-left: 70px;
+    font-size: 65px;
+  }
+  .logoFont5 {
+    font-size: 20px;
+    position: absolute;
+    font-size: 15px;
+    left: -80px;
+    z-index: 1;
+  }
+  #headerText2 {
+    left: -250px;
+  }
+  #collectionsVar {
+    left: auto;
+  }
+}
+#readMore {
+  box-shadow: 0px 0px 0px 5px rgba(50, 50, 50, 0.9);
+  color: rgb(221, 221, 221);
+  background-color: rgba(34, 34, 34, 0.877);
+}
+
+#root
+  > div
+  > div.app-main
+  > div.app-main__outer
+  > div
+  > div
+  > span
+  > div
+  > div
+  > div.row
+  > div.row
+  > div {
+  button {
+    font-family: "Cinzel-Regular";
+  }
+  text-align: left;
+}
+.card-body {
+  border-radius: 25px;
+  background-image: linear-gradient(
+    180deg,
+    rgb(116, 116, 116),
+    rgba(3, 3, 3, 0.959)
+  );
+}
+.card {
+  border-radius: 25px;
+  background-image:  "transparent";
+}
+.card-title {
+  border-radius: 25px;
+  background-image: linear-gradient(
+    180deg,
+    rgb(116, 116, 116),
+    rgba(3, 3, 3, 0.959)
+  );
+}
+.card-header {
+  border-radius: 25px;
+  background-image: linear-gradient(
+    180deg,
+    rgb(116, 116, 116),
+    rgba(3, 3, 3, 0.959)
+  );
+}
+
+#root
+  > div
+  > div.app-main
+  > div.app-main__outer
+  > div
+  > div
+  > span
+  > div
+  > div
+  > div.tab-pane.active
+  > div
+  > div
+  strong {
+  font-size: large;
+}
+
+div.card-header {
+  background-color: "transparent";
+}
+.chatNotify {
+  position: fixed;
+  z-index: 85;
+  bottom: 25px;
+  right: 15px;
+  width: 50px;
+  height: 50px;
+  background-color: #070707;
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #f4ceff;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  -webkit-animation-duration: 25s;
+  animation-duration: 25s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  user-select: none;
+  text-decoration: none;
+}
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  75% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+#root > div > span > div.app-header__mobile-menu > div > button {
+  text-decoration-line: none;
+}
+#root > div > span > div.app-header__mobile-menu > div > button > div {
+  text-decoration-line: none;
+}
